@@ -1,0 +1,106 @@
+﻿[36mvite v8.0.3 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 25 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.46 kB Γöé gzip:  0.29 kB
+dist/assets/index--8QWR5nL.css    2.11 kB Γöé gzip:  0.95 kB
+dist/assets/index-Bo1nD4Lm.js   204.15 kB Γöé gzip: 64.07 kB
+
+node.exe : [31mΓ£ù[39m Build 
+failed in 394ms
+At C:\Program 
+Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpe 
+   cified: ([31mΓ£ù[39m Build fai  
+  led in 394ms:String) [], RemoteE   
+ xception
+    + FullyQualifiedErrorId : Native 
+   CommandError
+ 
+[31merror during build:
+[31mBuild failed with 1 error:
+
+Error: [vite]: Rolldown failed to 
+resolve import "framer-motion" from "
+C:/Users/ASUS/.gemini/antigravity/scr
+atch/orgotechai/src/sections/Contact.
+jsx".
+This is most likely unintended 
+because it can break your 
+application at runtime.
+If you do want to externalize this 
+module explicitly add it to
+`build.rollupOptions.external`
+    at viteLog (file:///C:/Users/ASUS
+/.gemini/antigravity/scratch/orgotech
+ai/node_modules/vite/dist/node/chunks
+/node.js:32942:57)
+    at file:///C:/Users/ASUS/.gemini/
+antigravity/scratch/orgotechai/node_m
+odules/vite/dist/node/chunks/node.js:
+32978:71
+    at onwarn (file:///C:/Users/ASUS/
+.gemini/antigravity/scratch/orgotecha
+i/node_modules/@vitejs/plugin-react/d
+ist/index.js:40:7)
+    at file:///C:/Users/ASUS/.gemini/
+antigravity/scratch/orgotechai/node_m
+odules/vite/dist/node/chunks/node.js:
+32978:28
+    at onRollupLog (file:///C:/Users/
+ASUS/.gemini/antigravity/scratch/orgo
+techai/node_modules/vite/dist/node/ch
+unks/node.js:32973:63)
+    at onLog (file:///C:/Users/ASUS/.
+gemini/antigravity/scratch/orgotechai
+/node_modules/vite/dist/node/chunks/n
+ode.js:32743:4)
+    at file:///C:/Users/ASUS/.gemini/
+antigravity/scratch/orgotechai/node_m
+odules/rolldown/dist/shared/rolldown-
+build-CPrIX9V6.mjs:49:26
+    at logger (file:///C:/Users/ASUS/
+.gemini/antigravity/scratch/orgotecha
+i/node_modules/rolldown/dist/shared/r
+olldown-build-CPrIX9V6.mjs:40:3)
+    at onLog (file:///C:/Users/ASUS/.
+gemini/antigravity/scratch/orgotechai
+/node_modules/rolldown/dist/shared/bi
+ndingify-input-options-e7ze4hPR.mjs:1
+972:32)[31m
+    at 
+aggregateBindingErrorsIntoJsError (fi
+le:///C:/Users/ASUS/.gemini/antigravi
+ty/scratch/orgotechai/node_modules/ro
+lldown/dist/shared/error-BLhcSyeg.mjs
+:48:18)
+    at unwrapBindingResult (file:///C
+:/Users/ASUS/.gemini/antigravity/scra
+tch/orgotechai/node_modules/rolldown/
+dist/shared/error-BLhcSyeg.mjs:18:128
+)
+    at #build (file:///C:/Users/ASUS/
+.gemini/antigravity/scratch/orgotecha
+i/node_modules/rolldown/dist/shared/r
+olldown-build-CPrIX9V6.mjs:3313:34)
+    at async buildEnvironment (file:/
+//C:/Users/ASUS/.gemini/antigravity/s
+cratch/orgotechai/node_modules/vite/d
+ist/node/chunks/node.js:32849:64)
+    at async Object.build (file:///C:
+/Users/ASUS/.gemini/antigravity/scrat
+ch/orgotechai/node_modules/vite/dist/
+node/chunks/node.js:33271:19)
+    at async Object.buildApp (file://
+/C:/Users/ASUS/.gemini/antigravity/sc
+ratch/orgotechai/node_modules/vite/di
+st/node/chunks/node.js:33268:153)
+    at async CAC.<anonymous> (file://
+/C:/Users/ASUS/.gemini/antigravity/sc
+ratch/orgotechai/node_modules/vite/di
+st/node/cli.js:778:3) {
+  errors: [Getter/Setter]
+}[39m
