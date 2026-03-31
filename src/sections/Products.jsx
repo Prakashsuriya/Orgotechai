@@ -71,9 +71,10 @@ const Products = () => {
 
                 <div style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
                     gap: '2.5rem',
-                    maxWidth: '500px',
+                    width: '100%',
+                    maxWidth: '1200px',
                     margin: '0 auto'
                 }}>
                     {products.map((p, i) => (

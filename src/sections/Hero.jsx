@@ -31,7 +31,8 @@ const Hero = () => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            paddingTop: '0'
+            paddingTop: '6rem',
+            paddingBottom: '2rem'
         }}>
             <div className="container" ref={textRef} style={{ textAlign: 'center', position: 'relative', zIndex: 10 }}>
                 <motion.div
@@ -69,10 +70,11 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
                     style={{
-                        fontSize: '1.2rem',
+                        fontSize: 'clamp(1rem, 3vw, 1.2rem)',
                         color: 'var(--text-secondary)',
                         maxWidth: '600px',
-                        margin: '0 auto 3rem'
+                        margin: '0 auto 3rem',
+                        padding: '0 1rem'
                     }}
                 >
                     Orgotechai delivers cutting-edge products and services designed to elevate your brand through immersive 3D web technology.

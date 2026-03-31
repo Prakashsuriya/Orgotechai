@@ -30,14 +30,7 @@ const Services = () => {
                 </motion.div>
 
                 {/* Dynamic Accordion Layout */}
-                <div style={{
-                    display: 'flex',
-                    height: '60vh',
-                    minHeight: '400px',
-                    gap: '1rem',
-                    width: '100%',
-                    flexDirection: window.innerWidth < 768 ? 'column' : 'row' // Basic responsive fallback
-                }}>
+                <div className="services-accordion-container">
                     {services.map((s, i) => {
                         const isHovered = hoveredIndex === i;
 

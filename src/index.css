@@ -134,3 +134,59 @@ section {
   z-index: 0;
   pointer-events: none;
 }
+
+/* Responsive Utilities */
+@media (max-width: 768px) {
+  section {
+    padding: 4rem 1.5rem;
+  }
+  
+  .glass-panel {
+    padding: 2rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 3rem 1rem;
+  }
+  
+  .glass-panel {
+    padding: 1.5rem !important;
+  }
+}
+
+/* Services Accordion Layout */
+.services-accordion-container {
+  display: flex;
+  height: 60vh;
+  min-height: 400px;
+  gap: 1rem;
+  width: 100%;
+  flex-direction: row;
+}
+
+@media (max-width: 1024px) {
+  .services-accordion-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 600px;
+  }
+}
+
+.mobile-hidden {
+  display: flex;
+}
+
+.mobile-visible-block {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+  .mobile-visible-block {
+    display: block !important;
+  }
+}
